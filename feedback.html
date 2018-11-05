@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <title>My github page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="CSS/style.css" />
+
+
+</head>
+
+<body>
+  <header>
+    <div class="header_logo1"></div>
+    <div class="header_logo2">
+      <img src="images/logo.jpg" alt="Steffie's Sparkles Logo">
+    </div>
+      <div class="header_cart">
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+      <div class="header_search">
+        <i class="fa fa-search"></i><input type="text" />
+    </div>
+  </header>
+  <div id="MainContent">
+
+    <form action="response.html" method="post">
+      <div class="form-group">
+        <label for="contactName">Full Name (First, Last)</label>
+      <input type="text" name="name" value="" id="contactName">
+     </div>
+
+     <div class="form-check">
+       <input class="form-check-input" type="radio" name="gender" id="woman" value="woman">
+       <label class="form-check-label" for="woman">
+         Woman
+       </label>
+     </div>
+     <div class="form-check">
+       <input class="form-check-input" type="radio" name="gender" id="man" value="man">
+       <label class="form-check-label" for="man">
+         Man
+       </label>
+     </div>
+     <div class="form-check">
+       <input class="form-check-input" type="radio" name="gender" id="other" value="other">
+       <label class="form-check-label" for="other">
+         Other
+       </label>
+     </div>
+     <div class="form-check">
+       <input class="form-check-input" type="radio" name="gender" id="choosenottoidentify" value="choosenottoidentify">
+       <label class="form-check-label" for="choosenottoidentify">
+         Choose Not to Identify
+       </label>
+     </div>
+     <br>
+
+    <div>
+    <label for="vehicleSelect">What vehicle do you drive?</label>
+    <select class="custom-select" id="vehicleSelect">
+      <option selected>Type of Vehicle</option>
+      <option value="chevy">Chevy</option>
+      <option value="ford">Ford</option>
+      <option value="jeep">Jeep</option>
+    </select>
+    <small id="vehicleHelp" class="form-text text-muted">Select the kind of vehicle you drive from the dropdown menu (please only select one option).</small>
+  </div>
+  <br>
+
+  <!-- from bootstrap start -->
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <small id="passwordHelp" class="form-text text-muted">Please include at least (1) capital letter and (1) numerical value.</small>
+  </div>
+  <label for="comments">Comments</label>
+  <br>
+    <textarea id="comments" name="comments" placeholder="Write something.." style="height:200px"></textarea>
+  <br>
+  <button type="submit" class="btn btn-primary">Send Feedback</button>
+<!-- from bootstrap -->
+    </form>
+
+  </div><!-- #MainContent -->
+        <footer>
+          <nav>
+            <a href="shop.html">Shop</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+          </nav>
+          <div class="socialMedia">
+            <a href="https://www.etsy.com/shop/SteffiesSparkles"><i class="fab fa-etsy"></i></a>
+            <a href="https://www.instagram.com/steffiessparkles/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/SteffiesSparkles/"><i class="fab fa-facebook"></i></a>
+
+          </div><!-- .socialMedia -->
+
+        </footer>
+        <script src="scripts/slideshow-auto.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
